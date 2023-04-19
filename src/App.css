@@ -1,0 +1,43 @@
+body{
+  background-image: linear-gradient(#000032,#3c3cac);
+}
+.img-modal{
+  width: 250px;
+  height: 400px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.movie-wrapper {
+  text-align: center;
+  border: solid 2px blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.movie-title, .movie-id, .movie-popularity, .movie-title{
+  padding: 15px;
+  color: white;
+}
+
+.movie-title{
+  font-weight: bold;
+}
+/* Modal content */
+
+.fade {
+  padding: 10px;
+}
+
+.modal-side {
+  padding: 10px;
+}
+.img-modal-card{
+  width: 200px;
+}
